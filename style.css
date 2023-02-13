@@ -1,4 +1,4 @@
-html, body , ul , a{
+html, body, a{
   margin: 0;
   padding: 0;
   text-align: left;
@@ -10,4 +10,33 @@ p{
 }
 canvas {
   display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.parent {
+  width: 100%;
+  height: 100%;
+  display: table;
+  text-align: center;
+}
+.parent > .child {
+  display: table-cell;
+  vertical-align: middle;
+}
+.my-block{
+  padding-top: 100px;
+}
+
+.center {
+  padding: 70px 0;
+  border: 3px solid green;
+}
+
+.ghost{
+  padding: 674px 0;
+  padding-left: 1410px;
 }
